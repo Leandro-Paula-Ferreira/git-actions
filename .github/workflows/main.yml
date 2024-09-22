@@ -6,11 +6,11 @@ on:
 jobs:
   primeiro-job:
     name: "Meu Primeiro JOB"
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
       - name: "Minha primeira ação"
-        run: echo "Ola Leandro !!!!"
+        run: echo "Olá Leandro !!!!"
       - name: "Segunda ação"
-        run:
+        run: |
           echo "Criação do seu primeiro workflow !!!"
-          echo "Leagl Bora"
+          echo "Legal, Bora"
